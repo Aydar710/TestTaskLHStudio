@@ -1,3 +1,5 @@
 rootProject.name='TestTaskLHStudio'
 include ':app'
 include ':data'
+include ':feature-main'
+include ':feature-company-card'
