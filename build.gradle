@@ -5,7 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
@@ -14,13 +14,35 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+
+    ext {
+        coroutinesPlayServicesVersion = '1.1.1'
+        coroutinesVersion = "1.3.5"
+
+        koin_version = "2.1.5"
+
+        coroutinesDeps = [
+                playServices      : "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$coroutinesPlayServicesVersion",
+                coroutineLifecycle: "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-beta01",
+                coroutinesCore    : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion",
+        ]
+
+        koinDeps = [
+                // Koin for Android
+                koinAdnroid  : "org.koin:koin-android:$koin_version",
+                // or Koin for Lifecycle scoping
+                koinScopes   : "org.koin:koin-android-scope:$koin_version",
+                // or Koin for Android Architecture ViewModel
+                koinViewModel: "org.koin:koin-android-viewmodel:$koin_version"
+        ]
+    }
 }
 
 allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 
