@@ -1,4 +1,4 @@
-package com.lifehack.feature_company_card
+package com.lifehack.featuremain
 
 import org.junit.Test
 

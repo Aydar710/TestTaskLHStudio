@@ -1,4 +1,4 @@
-package com.lifehack.feature_companies_list.presentation
+package com.lifehack.featuremain.presentation
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.lifehack.data.model.Company
-import com.lifehack.feature_companies_list.R
+import com.lifehack.featuremain.R
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_company.view.*
 

@@ -1,8 +1,8 @@
-package com.lifehack.feature_company_card.presentation
+package com.lifehack.featurecompanycard.presentation
 
 import android.annotation.SuppressLint
 import com.lifehack.data.model.CompanyFullInfo
-import com.lifehack.feature_company_card.R
+import com.lifehack.featurecompanycard.R
 import kotlinx.android.synthetic.main.activity_company_card.*
 
 class CompanyCardViewHolder(private val activity: CompanyCardActivity) {

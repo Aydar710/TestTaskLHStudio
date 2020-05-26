@@ -1,4 +1,4 @@
-package com.lifehack.feature_company_card.domain
+package com.lifehack.featurecompanycard.domain
 
 import com.lifehack.data.model.CompanyFullInfo
 import com.lifehack.data.repository.CompaniesRepository

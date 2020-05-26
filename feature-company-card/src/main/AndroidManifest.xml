@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lifehack.feature_company_card">
+    package="com.lifehack.featurecompanycard">
 
     <application>
-        <activity android:name=".presentation.CompanyCardActivity"></activity>
+        <activity android:name="com.lifehack.featurecompanycard.presentation.CompanyCardActivity"></activity>
     </application>
 
 </manifest>

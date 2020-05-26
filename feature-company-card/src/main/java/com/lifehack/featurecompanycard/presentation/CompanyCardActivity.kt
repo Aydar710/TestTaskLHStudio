@@ -1,4 +1,4 @@
-package com.lifehack.feature_company_card.presentation
+package com.lifehack.featurecompanycard.presentation
 
 import android.os.Bundle
 import android.view.View
@@ -8,7 +8,7 @@ import androidx.lifecycle.Observer
 import com.lifehack.common.Commands
 import com.lifehack.common.EXTRA_COMPANY
 import com.lifehack.data.model.Company
-import com.lifehack.feature_company_card.R
+import com.lifehack.featurecompanycard.R
 import kotlinx.android.synthetic.main.activity_company_card.*
 import org.koin.android.viewmodel.ext.android.viewModel
 

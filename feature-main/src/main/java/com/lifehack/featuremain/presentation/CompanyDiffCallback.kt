@@ -1,4 +1,4 @@
-package com.lifehack.feature_companies_list.presentation
+package com.lifehack.featuremain.presentation
 
 import androidx.recyclerview.widget.DiffUtil
 import com.lifehack.data.model.Company

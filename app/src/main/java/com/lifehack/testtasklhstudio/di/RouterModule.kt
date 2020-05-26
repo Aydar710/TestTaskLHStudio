@@ -1,6 +1,6 @@
 package com.lifehack.testtasklhstudio.di
 
-import com.lifehack.feature_companies_list.MainRouter
+import com.lifehack.featuremain.MainRouter
 import com.lifehack.testtasklhstudio.router.AppRouterImpl
 import org.koin.dsl.module
 

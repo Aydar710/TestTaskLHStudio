@@ -1,4 +1,4 @@
-package com.lifehack.feature_companies_list.presentation
+package com.lifehack.featuremain.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.lifehack.common.Commands
 import com.lifehack.common.SingleLiveEvent
 import com.lifehack.data.model.Company
-import com.lifehack.feature_companies_list.domain.ShowCompaniesUseCase
+import com.lifehack.featuremain.domain.ShowCompaniesUseCase
 import kotlinx.coroutines.launch
 
 class MainViewModel(private val showCompaniesUseCase: ShowCompaniesUseCase) : ViewModel() {

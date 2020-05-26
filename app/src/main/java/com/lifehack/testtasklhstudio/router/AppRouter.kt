@@ -1,5 +1,5 @@
 package com.lifehack.testtasklhstudio.router
 
-import com.lifehack.feature_companies_list.MainRouter
+import com.lifehack.featuremain.MainRouter
 
 interface AppRouter : MainRouter

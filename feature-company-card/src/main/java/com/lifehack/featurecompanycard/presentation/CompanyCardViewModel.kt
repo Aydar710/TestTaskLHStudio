@@ -1,4 +1,4 @@
-package com.lifehack.feature_company_card.presentation
+package com.lifehack.featurecompanycard.presentation
 
 import android.util.MalformedJsonException
 import androidx.lifecycle.LiveData
@@ -8,7 +8,7 @@ import androidx.lifecycle.viewModelScope
 import com.lifehack.common.Commands
 import com.lifehack.common.SingleLiveEvent
 import com.lifehack.data.model.CompanyFullInfo
-import com.lifehack.feature_company_card.domain.ShowCompanyInfoUseCase
+import com.lifehack.featurecompanycard.domain.ShowCompanyInfoUseCase
 import kotlinx.coroutines.launch
 
 class CompanyCardViewModel(private val showCompanyInfoUseCase: ShowCompanyInfoUseCase) :

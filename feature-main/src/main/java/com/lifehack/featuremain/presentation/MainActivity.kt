@@ -1,12 +1,12 @@
-package com.lifehack.feature_companies_list.presentation
+package com.lifehack.featuremain.presentation
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.lifehack.common.Commands
-import com.lifehack.feature_companies_list.MainRouter
-import com.lifehack.feature_companies_list.R
+import com.lifehack.featuremain.MainRouter
+import com.lifehack.featuremain.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.ext.android.inject
 import org.koin.android.viewmodel.ext.android.viewModel

@@ -1,4 +1,4 @@
-package com.lifehack.feature_company_card
+package com.lifehack.featuremain
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.lifehack.feature_company_card.test", appContext.packageName)
+        assertEquals("com.lifehack.feature_companies_list.test", appContext.packageName)
     }
 }

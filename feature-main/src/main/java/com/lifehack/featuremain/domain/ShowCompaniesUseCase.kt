@@ -1,4 +1,4 @@
-package com.lifehack.feature_companies_list.domain
+package com.lifehack.featuremain.domain
 
 import com.lifehack.data.model.Company
 import com.lifehack.data.repository.CompaniesRepository

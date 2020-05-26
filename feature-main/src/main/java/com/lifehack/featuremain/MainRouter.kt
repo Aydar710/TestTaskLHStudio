@@ -1,4 +1,4 @@
-package com.lifehack.feature_companies_list
+package com.lifehack.featuremain
 
 import androidx.appcompat.app.AppCompatActivity
 import com.lifehack.data.model.Company

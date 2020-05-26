@@ -3,7 +3,7 @@ package com.lifehack.testtasklhstudio.router
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import com.lifehack.data.model.Company
-import com.lifehack.feature_company_card.presentation.CompanyCardActivity
+import com.lifehack.featurecompanycard.presentation.CompanyCardActivity
 
 class AppRouterImpl : AppRouter {
 
