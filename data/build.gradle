@@ -34,13 +34,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
 
+    implementation retrofitDeps.values()
     implementation coroutinesDeps.values()
     implementation koinDeps.values()
 
-    //Stetho
-    implementation "com.facebook.stetho:stetho:1.4.2"
-    implementation "com.facebook.stetho:stetho-okhttp3:1.4.2"
 }

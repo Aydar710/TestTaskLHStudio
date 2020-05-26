@@ -1,7 +1,9 @@
 package com.lifehack.data.model
 
-data class Company(
-    val id: Int,
-    val name: String,
-    val img: String
-)
+import java.io.Serializable
+
+open class Company(
+    val id: Int? = null,
+    val name: String? = null,
+    val img: String? = null
+) : Serializable

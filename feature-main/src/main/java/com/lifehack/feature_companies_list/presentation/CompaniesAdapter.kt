@@ -10,7 +10,7 @@ import com.lifehack.feature_companies_list.R
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_company.view.*
 
-class CompaniesAdapter :
+class CompaniesAdapter(private val onCompanyClicked : (Company) -> Unit) :
     ListAdapter<Company, CompaniesAdapter.CompanyViewHolder>(CompanyDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CompanyViewHolder {
@@ -29,6 +29,11 @@ class CompaniesAdapter :
         fun bind(company: Company) {
             with(containerView) {
                 tv_company_name.text = company.name
+                iv_company.setImageResource(R.drawable.img_company)
+
+                setOnClickListener {
+                    onCompanyClicked.invoke(company)
+                }
             }
         }
     }
